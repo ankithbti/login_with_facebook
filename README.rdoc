@@ -17,6 +17,10 @@ Heroku Commands:
 # heroku keys:add
 # heroku create --stack cedar
 # git push heroku master
+# heroku rename railstutorial
+# heroku run rake db:migrate
+# heroku open
+# heroku logs
 
 Heroku Link for this app:   http://secret-spire-2301.herokuapp.com
 
