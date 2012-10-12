@@ -9,6 +9,7 @@ OmniauthLearn::Application.routes.draw do
   match '/signin', :to => 'sessions#new'
   match '/signout', to: 'sessions#destroy'
   match "/auth/:provider/callback", to: "sessions#create"
+  #match "/auth/facebook/callback", to: "sessions#create"
 
   #match '/auth/facebook/callback', to: 'projects#new'
 

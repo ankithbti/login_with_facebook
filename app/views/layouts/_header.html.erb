@@ -17,13 +17,13 @@
 		<li><%= link_to "Profile", '#' %></li>
 		<li><%= link_to "Settings", '#' %></li>
 		<li class="divider"></li>
-		<li>
+		<li id="sign_out">
 			<%= link_to "Sign out", signout_path, method: "delete" %>
 		</li>
 	</ul>
 </li>
 <% else %>
-	 <li><%= link_to "SignwithFaceBook", "/auth/facebook" %></li>
+	 <li id="sign_in"><%= link_to "SignwithFaceBook", "/auth/facebook" %></li>
 <% end %>
 </ul>
 </nav>
